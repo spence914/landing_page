@@ -3,21 +3,27 @@ body {        background-color: #1F2937;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            margin: 0px;
         }
 
 
+.head {display: flex;
+        flex-direction: column;  
+        flex: 1;      
+}
 
 .header {display: flex;
         color: #F9FAF8;
         justify-content: space-around;
         align-items: center;
+        padding: 10px 0px;
        }
 
 
 .header_logo {display: flex;
     align-items: center;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .header_links, ul {display: flex;
@@ -30,6 +36,79 @@ body {        background-color: #1F2937;
 li {margin: 0px 10px;
     display: flex;
     align-self: center;
+}
+
+.section_2 {display: flex;
+            justify-content: space-around;
+            flex: 7;
+            padding: 40px 0px;
+        }
+
+.col1 {display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+.TWIA {color: #F9FAF8;
+        font-size: 48px;
+        font-weight: 800;
+        width: 500px;
+        }
+
+.atext {color: #e5e7ebc0;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.but1 {background-color: #3882F6 ;
+        color: #e5e7ebc0;
+        font-size: 18px;
+        border-radius: 8px;
+        border: none;
+        padding: 6px 25px;
+}
+
+.col2 {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.section_3 {display: flex;
+            flex-direction: column;
+            flex: 7;
+            background-color: white;
+            padding: 20px 0px;
+            margin: 0px;
+            width: 100vw;
+}
+
+.row1 {text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        padding-top: 20px;
+        padding-bottom: 50px;
+}
+
+.row2 {display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+.s3col {display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 128px;
+        padding: 0px 20px;
+        text-align: center;    
+        font-size: 18px;
+        color: #97989a;
+    }
+
+.s3col img {border: 3px solid #3882F6;
+            border-radius: 8px;            
 }
 
 .footer {color: #F9FAF8;
